@@ -1,9 +1,6 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
@@ -36,12 +33,8 @@ const socialMediaLinks = {
   github: "https://github.com/ViplavKhode",
   linkedin: "https://www.linkedin.com/in/viplavkhode/",
   gmail: "vnkhode@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  instagram: "https://www.instagram.com/s.a.t.u.r.n.s/",
+  whatsapp: "https://wa.me/918788011514?text=Hi,%20What's%20up",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -60,8 +53,6 @@ const skillsSection = {
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -88,10 +79,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+
     {
-      skillName: "flutter",
-      fontAwesomeClassname: "fab fa-android"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -101,21 +98,30 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "mongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    
+    {
+      skillName: "flutter",
+      fontAwesomeClassname: "fab fa-android"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,7 +132,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Purdue University",
+      schoolName: "Purdue University, USA",
       logo: require("./assets/images/purdueLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2024 - December 2025",
@@ -137,21 +143,26 @@ const educationInfo = {
         "Software Engineering"
       ]
     },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    {
+      schoolName: "Amravati University, India",
+      logo: require("./assets/images/sgbau.png"),
+      subHeader: "Bachelor of Engineering in Computer Science and Engineering",
+      duration: "August 2018 - June 2022",
+      desc: "College Activities:",
+      descBullets: [
+        "Class Representative",
+        "Training and Placement Student Coordinator",
+        "Volunteered in varieties of college committees (CSESA, CSI, E-Cell, Pursuit)",
+        "Organised and coordinated college level workshops and National level events"
+      ]
+    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -178,30 +189,32 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Persistent Systems",
       companylogo: require("./assets/images/psl.png"),
-      date: "Jan 2022 – Dec 2023",
-      desc: "dummy description",
+      date: "Jan 2022 - Dec 2023",
+      place: "Pune, India",
+      desc: "At Persistent Systems, I specialized in troubleshooting Saviynt and database issues, collaborating effectively with my team and using React.js, Git, and SQL to enhance our applications.",
       descBullets: [
-        "responsibilites....",
-        "responsibilites...."
+        "Collaborated with team members to troubleshoot and resolve Saviynt and database-related issues",
+        "Supported in continuous improvement of the application",
+        "Tech Stack: Java, Git, SQL, Saviynt",
       ]
     },
     {
       role: "Flutter Developer Intern",
       company: "Artbook The Platform",
       companylogo: require("./assets/images/abthepf.png"),
-      date: "May 2017 – May 2018",
-      desc: "dummy description",
+      date: "Sept 2021 - Feb 2022",
+      place: "Karlsruhe, Germany",
+      desc: "At Artbook, I designed and developed an Android application using Flutter, NoSQL, and REST APIs, actively participating in all development phases and contributing to continuous application improvement.",
       descBullets: [
-        "responsibilites....",
-        "responsibilites...."
+        "Design and developed android application using Flutter, NoSQL and REST APIs",
+        "Participated in all phases of development life–cycle",
+        "Supported in continuous improvement of the application"
       ]
     },
    
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -212,28 +225,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Example",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Example",
+      projectDesc: "Example",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://Example.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Example",
+      projectDesc: "Example",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://Example.com/"
         }
       ]
     }
@@ -251,51 +264,45 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "First Place National Runner-up",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "This Challenge's focus was to make smart key for meter cabins installed by Adani Electricity especially to secure meters cabins of customers and meet the needs of security.",
+      image: require("./assets/images/adani.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "#"
         },
+        
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Adani Electricity Hackathon Blog",
+          url: "https://blogssgmce.in/ssgmce-students-bag-first-and-second-runner-up-position-in-hackathon-organized-by-adani-electricity/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Winner of Grand Project Expo",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "I presented an IoT project featuring a digital locking system. This project included a web app and a mobile app, allowing users to control and monitor the system remotely. I utilized Flutter, PHP, HTML/CSS, Bootstrap, JS, SQL, and hardware with NodeMCU ESP8266.",
+      image: require("./assets/images/pursuit.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        {name: "Certification", url: ""},
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Runner-Up at Enigma",
+      subtitle: "The event featured multiple challenging rounds, including a quiz, a relay round, and solving pseudo code, testing my knowledge and problem-solving skills in C++.",
+      image: require("./assets/images/acm.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {
+        //   name: "Final Project",
+        //   url: ""
+        // }
       ]
     }
   ],
@@ -317,7 +324,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "sample",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -331,15 +338,15 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Build Example",
+      subtitle: "Example 2019",
+      slides_url: "Example",
+      event_url: "Example"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -349,13 +356,13 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Example",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "Example"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
