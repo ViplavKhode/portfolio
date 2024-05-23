@@ -80,14 +80,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.twitter ? (
+      {socialMediaLinks.instagram ? (
         <a
-          href={socialMediaLinks.twitter}
-          className="icon-button twitter"
+          href={socialMediaLinks.whatsapp}
+          className="icon-button whatsapp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
+          <i className="fab fa-whatsapp"></i>
           <span></span>
         </a>
       ) : null}

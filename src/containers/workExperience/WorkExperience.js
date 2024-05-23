@@ -24,6 +24,7 @@ export default function WorkExperience() {
                         company: card.company,
                         desc: card.desc,
                         date: card.date,
+                        place: card.place,
                         companylogo: card.companylogo,
                         role: card.role,
                         descBullets: card.descBullets
