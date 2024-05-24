@@ -136,7 +136,7 @@ const educationInfo = {
       logo: require("./assets/images/purdueLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2024 - December 2025",
-      desc: "Course Completed: ",
+      desc: "Courses Completed: ",
       descBullets: [
         "Full Stack Web Development",
         "Operating Systems",
