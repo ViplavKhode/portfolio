@@ -272,7 +272,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "#"
+          url: "https://white-judy-66.tiiny.site/"
         },
         
         {
