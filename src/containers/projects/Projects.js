@@ -18,12 +18,14 @@ export default function Projects() {
     const getRepoData = () => {
       fetch("/profile.json")
         .then(result => {
+          console.log("result: ",result);
           if (result.ok) {
             return result.json();
           }
           throw result;
         })
         .then(response => {
+          console.log("User: ", response.data);
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {

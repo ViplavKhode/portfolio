@@ -69,7 +69,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <h5
           className={
             isDark
-              ? "experience-text-place dark-mode-place"
+              ? "experience-text-place dark-mode-text"
               : "experience-text-place"
           }
         >
