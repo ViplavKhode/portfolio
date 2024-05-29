@@ -16,6 +16,6 @@
 
 <p align="center"> 
   <samp>
-    <a href="https://viplav.vercel.app/">[ Click Here to Visit Website ]</a>
+    [ <a href="https://viplav.vercel.app/">Click Here to Visit Website</a> ]
   </samp>
 </p>
