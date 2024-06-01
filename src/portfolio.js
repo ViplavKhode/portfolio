@@ -34,7 +34,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/viplavkhode/",
   gmail: "vnkhode@gmail.com",
   instagram: "https://www.instagram.com/s.a.t.u.r.n.s/",
-  whatsapp: "https://wa.me/918788011514?text=Hi,%20What's%20up",
+  whatsapp: "https://wa.me/12604250373?text=Hi,%20What's%20up",
   display: true // Set true to display this section, defaults to false
 };
 
