@@ -35,6 +35,7 @@ const socialMediaLinks = {
   gmail: "vnkhode@gmail.com",
   instagram: "https://www.instagram.com/s.a.t.u.r.n.s/",
   whatsapp: "https://wa.me/12604250373?text=Hi,%20What's%20up",
+  leetcode: "leetcode.com/saturns",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -136,7 +137,7 @@ const educationInfo = {
       logo: require("./assets/images/purdueLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2024 - December 2025",
-      desc: "Course Completed: ",
+      desc: "Courses Completed: ",
       descBullets: [
         "Full Stack Web Development",
         "Operating Systems",
