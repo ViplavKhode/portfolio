@@ -34,8 +34,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/viplavkhode/",
   gmail: "vnkhode@gmail.com",
   instagram: "https://www.instagram.com/s.a.t.u.r.n.s/",
-  whatsapp: "https://wa.me/12604250373?text=Hi,%20What's%20up",
-  leetcode: "leetcode.com/saturns",
+  whatsapp: "https://wa.me/918788011514?text=Hi,%20What's%20up",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -43,7 +42,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK AND MACHINE LEARNING DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -118,7 +117,10 @@ const skillsSection = {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
     },
-    
+    {
+      skillName: "python / machine learning",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "flutter",
       fontAwesomeClassname: "fab fa-android"
@@ -137,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/purdueLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2024 - December 2025",
-      desc: "Courses Completed: ",
+      desc: "Course Completed: ",
       descBullets: [
         "Full Stack Web Development",
         "Operating Systems",
@@ -265,6 +267,24 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Global Hackathon Winners",
+      subtitle:
+        "We emerged victorious at IEEE CodeClash 2025, a global competition that attracted over 800 applications and featured participation from premier institutions worldwide.",
+      image: require("./assets/images/ieee.png"),
+      imageAlt: "IEEE Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://ibb.co/4R1vZLh8"
+        },
+        
+        {
+          name: "Problem Statement",
+          url: "./assets/problemStatement/BlindspotDetection.pdf"
+        }
+      ]
+    },
+    {
       title: "First Place National Runner-up",
       subtitle:
         "This Challenge's focus was to make smart key for meter cabins installed by Adani Electricity especially to secure meters cabins of customers and meet the needs of security.",
@@ -372,7 +392,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
