@@ -122,7 +122,21 @@
 }
 
 .experience-text-desc {
-  text-align: center;
+  /* Align descriptions to the left for better readability
+     while keeping the card layout centered. Also constrain
+     the max width so long sentences wrap at a comfortable
+     line length. */
+  text-align: left;
+  margin: 0.25rem auto 0 auto;
+  max-width: 42rem; /* ~672px — comfortable reading width */
+}
+
+.experience-text-details ul {
+  /* Keep bullet lists aligned and constrained like the description */
+  text-align: left;
+  margin: 0.5rem auto 0 auto;
+  max-width: 42rem;
+  padding-left: 1.25rem; /* keep bullets indented */
 }
 
 .experience-text-details {

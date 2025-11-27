@@ -20,7 +20,7 @@ const greeting = {
   username: "Viplav Khode",
   title: "Hi all, I'm Viplav",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Flutter and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 experienced in building modern Web and AI-powered applications with React, Next.js, Node.js, TypeScript, Python, and other advanced frameworks and tools."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -45,11 +45,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK AND MACHINE LEARNING DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build highly interactive, responsive, and accessible web & mobile interfaces using modern front-end frameworks"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop fast, offline-ready Progressive Web Apps (PWA) with advanced SPA/SSR architectures"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate third-party platforms and cloud services such as Firebase, AWS, DigitalOcean, and modern AI APIs"
     )
   ],
 
@@ -138,26 +138,26 @@ const educationInfo = {
       schoolName: "Purdue University, USA",
       logo: require("./assets/images/purdueLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "January 2024 - December 2025",
-      desc: "Course Completed: ",
-      descBullets: [
-        "Full Stack Web Development",
-        "Operating Systems",
-        "Software Engineering"
-      ]
+      //duration: "January 2024 - December 2025",
+      // desc: "Course Completed: ",
+      // descBullets: [
+      //   "Full Stack Web Development",
+      //   "Operating Systems",
+      //   "Software Engineering"
+      // ]
     },
     {
       schoolName: "Amravati University, India",
       logo: require("./assets/images/sgbau.png"),
       subHeader: "Bachelor of Engineering in Computer Science and Engineering",
-      duration: "August 2018 - June 2022",
-      desc: "College Activities:",
-      descBullets: [
-        "Class Representative",
-        "Training and Placement Student Coordinator",
-        "Volunteered in varieties of college committees (CSESA, CSI, E-Cell, Pursuit)",
-        "Organised and coordinated college level workshops and National level events"
-      ]
+      //duration: "August 2018 - June 2022",
+      // desc: "College Activities:",
+      // descBullets: [
+      //   "Class Representative",
+      //   "Training and Placement Student Coordinator",
+      //   "Volunteered in varieties of college committees (CSESA, CSI, E-Cell, Pursuit)",
+      //   "Organised and coordinated college level workshops and National level events"
+      // ]
     }
   ]
 };
@@ -192,22 +192,48 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Persistent Systems",
       companylogo: require("./assets/images/psl.png"),
-      date: "Jan 2022 - Dec 2023",
+      // date: "Jan 2022 - Dec 2023",
       place: "Pune, India",
-      desc: "At Persistent Systems, I specialized in troubleshooting Saviynt and database issues, collaborating effectively with my team and using React.js, Git, and SQL to enhance our applications.",
+      desc: "Worked as a Software Engineer for 2 years, building and supporting enterprise applications. Focused on backend development with Java and SQL in Linux environments and gained hands-on experience with Saviynt for secure identity governance. Collaborated in Agile teams to deliver scalable software while enhancing skills in analysis, debugging, optimization, and automation.",
       descBullets: [
-        "Collaborated with team members to troubleshoot and resolve Saviynt and database-related issues",
-        "Supported in continuous improvement of the application",
-        "Tech Stack: Java, Git, SQL, Saviynt",
+        "Built and maintained backend features using Java, SQL, and Linux-based tooling",
+        "Implemented identity governance workflows with Saviynt to enhance secure access management",
+        "Supported Agile teams through requirement analysis, debugging, optimization, and process automation"
+      ]
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Persistent Systems",
+      companylogo: require("./assets/images/psl.png"),
+    //date: "Jan 2022 - Dec 2023",
+      place: "Pune, India",
+      desc: "Worked as a Software Engineer Intern, contributing to the development of responsive web interfaces, API integration, and application testing. Gained hands-on experience with Agile workflows and collaborated closely with cross-functional teams to ensure timely and high-quality feature delivery.",
+      descBullets: [
+        "Developed reusable, responsive UI components using React.js and integrated RESTful APIs",
+        "Performed manual testing across browsers/devices and tracked issues in Jira",
+        "Participated in Agile ceremonies, supporting sprint planning, code reviews, and feature delivery"
       ]
     },
     {
       role: "Flutter Developer Intern",
       company: "Artbook The Platform",
       companylogo: require("./assets/images/abthepf.png"),
-      date: "Sept 2021 - Feb 2022",
+    // date: "Sept 2021 - Feb 2022",
       place: "Karlsruhe, Germany",
-      desc: "At Artbook, I designed and developed an Android application using Flutter, NoSQL, and REST APIs, actively participating in all development phases and contributing to continuous application improvement.",
+      desc: "Worked as a Flutter Developer Intern, building an analytics dashboard with Firebase, optimizing REST API interactions, and enhancing interfaces with Material Design. Collaborated with founder, product managers and designers in an Agile workflow to deliver user-focused features.",
+      descBullets: [
+        "Developed a real-time user engagement dashboard with Firebase, enhancing retention and insights",
+        "Optimized REST API interactions with caching and pagination, improving performance and responsiveness",
+        "Applied Material Design to revamp UI, boosting usability and engagement",
+      ]
+    },
+    {
+      role: "PHP Developer Intern",
+      company: "SoftFlow Systems",
+      companylogo: require("./assets/images/softflow.png"),
+    //  date: "Sept 2021 - Feb 2022",
+      place: "Nagpur, India",
+      desc: "Worked on a legacy LAMP application, developing new features, fixing bugs, and refactoring code for reusability. Built RESTful APIs in Laravel with token-based authentication and role-based access control, and created admin CRUD interfaces using Bootstrap and jQuery with server- and client-side validation.",
       descBullets: [
         "Design and developed android application using Flutter, NoSQL and REST APIs",
         "Participated in all phases of development life–cycle",
@@ -392,7 +418,8 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/file/d/1ZVfD0byu9GCz_pW-V1sp7rMJxSqv17nI/view?usp=sharing",
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
