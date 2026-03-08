@@ -418,7 +418,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  resumeLink: "https://drive.google.com/file/d/1ZVfD0byu9GCz_pW-V1sp7rMJxSqv17nI/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1qIS2U2xyDrJw-YRTHGHQLsi_1YIGBxUL/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
